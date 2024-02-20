@@ -367,3 +367,133 @@
 .right .download__container div img{
     width: 35%;
 }
+
+@media only screen and (max-width: 1300px)
+{
+    .get__the_app .semiContainer .left,
+    .get__the_app .semiContainer .right {
+        flex: 1;
+    }
+    .get__the_app .semiContainer .right{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .get__the_app{
+        padding: 2rem 0;
+    }
+    .get__the_app .semiContainer{
+        width: 95%;
+        flex-direction: column;
+    }
+}
+
+
+.footer{
+    width: 100%;
+}
+
+.footer_section1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.footer_section1 img{
+    width: 130px;
+}
+
+.section1__buttoncontainers{
+    display: flex;
+    gap: 1rem;
+}
+
+.section1__buttoncontainers button{
+    padding: 5px;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.navigation_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.link_container{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.link_container h5{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.8px;
+}
+
+.footer__links{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 150px;
+}
+
+.footer__links:hover{
+    color: black;
+}
+
+
+.section_linkscontainers{
+    display: flex;
+    gap: 0.35rem;
+}
+
+.section_linkscontainers button{
+    background-color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.section_linkscontainers button i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer_section_logo{
+    width: 60%;
+    margin-top: -15px;
+    padding-bottom: 25px;
+}
+
+.disclaimer{
+    font-size: 12px;
+    color: gray;
+    margin: auto;
+    width: 95%;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+}
